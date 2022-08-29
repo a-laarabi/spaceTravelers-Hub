@@ -8,7 +8,7 @@ const Navbar = () => (
     <ul className="nav-links">
       <li><NavLink to="./">Rockets</NavLink></li>
       <li className="missionNav"><NavLink to="/missions">Missions</NavLink></li>
-      <li>My Profile</li>
+      <li>My Profile></li>
     </ul>
   </nav>
 );
