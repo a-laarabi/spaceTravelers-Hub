@@ -1,8 +1,6 @@
-import Header from '../Header';
-
 const Rockets = () => (
   <div>
-    <Header />
+    Rockets
   </div>
 );
 export default Rockets;

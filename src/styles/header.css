@@ -1,0 +1,35 @@
+.navbar {
+  border-bottom: 1px #777 solid;
+  display: flex;
+  justify-content: end;
+}
+
+header {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  padding: 6px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.navLogo {
+  margin-left: 35px;
+  padding: 0 2% 0 2%;
+  display: flex;
+  gap: 10px;
+}
+
+.picLogo {
+  height: 50px;
+}
