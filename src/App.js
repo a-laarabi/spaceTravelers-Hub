@@ -1,19 +1,26 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css';
-import Navbar from './components/Navbar';
-import MyProfile from './components/pages/MyProfile';
+import Header from './components/Header';
+
 import Rockets from './components/pages/Rockets';
+import Dragon from './components/pages/Dragon';
+import Mission from './components/pages/Mission';
+import MyProfile from './components/pages/MyProfile';
+
+
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Rockets />} />
-        <Route path="/my-profile" element={<MyProfile />} />
+        <Route path="/dragons" element={<Dragon />} />
+        <Route path="/Mission" element={<Mission />} />
+        <Route path="/My-Profile" element={<MyProfile />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
