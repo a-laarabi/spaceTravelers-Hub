@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import '../../styles/myProfile.css';
 
 const MyProfile = () => {
   const missions = useSelector((state) => state.missions);
@@ -8,7 +9,7 @@ const MyProfile = () => {
   return (
     <>
       <h1>My Missions</h1>
-      <ul>
+      <ul className="profile">
         {joinedMissions.map((mission) => <li key={mission.id}>{mission.name}</li>)}
       </ul>
     </>

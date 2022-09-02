@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+}
+
+.profile li {
+  padding: 10px 30px;
+  background-color: aquamarine;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 30%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blue;
+}
