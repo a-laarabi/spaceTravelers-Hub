@@ -3,6 +3,8 @@ import { useSelector } from 'react-redux';
 
 function MyProfile() {
   const rockets = useSelector((state) => state.rockets.rockets);
+  const missions = useSelector((state) => state.missions);
+  const joinedMissions = missions.filter((mission) => mission.reserved);
   const reservedRockets = rockets.map((rocket) => (rocket.reserved ? (
     <li key={rocket.id} className="list-group-item">
       {rocket.name}
@@ -22,6 +24,11 @@ function MyProfile() {
           </ul>
         </div>
       </div>
+      
+      <h1>My Missions</h1>
+      <ul>
+        {joinedMissions.map((mission) => <li key={mission.id}>{mission.name}</li>)}
+      </ul>
     </div>
   );
 }
