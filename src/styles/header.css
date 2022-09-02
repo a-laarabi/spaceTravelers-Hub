@@ -4,9 +4,9 @@ header {
   margin: 0 auto;
   border-bottom: 2px #777 solid;
   margin-top: 20px;
+  margin-bottom: 30px;
   padding: 10px 20px;
 }
-
 
 .navLogo {
   display: flex;
