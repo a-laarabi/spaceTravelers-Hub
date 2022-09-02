@@ -19,14 +19,14 @@ const MissionProp = (props) => {
   };
 
   return (
-    <tr id={id}>
-      <td>{name}</td>
-      <td>
+    <tr id={id} className="tableContent">
+      <td className="missionName">{name}</td>
+      <td className="description">
         {description}
         {' '}
       </td>
       <td>
-        <span className={reserved ? 'yes' : 'not'}>{reserved ? 'Active Member' : 'NOT A MEMBER'}</span>
+        <div className={reserved ? 'yes status' : 'no status'}>{reserved ? 'Active Member' : 'NOT A MEMBER'}</div>
       </td>
       <td>
         {!reserved ? <button type="button" className="join" onClick={reserve}>Join Mission</button>
