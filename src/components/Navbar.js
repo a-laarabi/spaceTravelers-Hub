@@ -6,7 +6,7 @@ const Navbar = () => (
       <li key={1}><NavLink to="./">Rockets</NavLink></li>
       <li key={3}><NavLink to="/Mission">Mission</NavLink></li>
       <li>|</li>
-      <li key={4}><NavLink to="/my-profile">My Profile</NavLink></li>
+      <li key={4}><NavLink to="/my-profile">My_Profile</NavLink></li>
     </ul>
   </nav>
 );

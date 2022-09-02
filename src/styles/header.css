@@ -1,19 +1,26 @@
-.navbar {
-  border-bottom: 1px #777 solid;
-  display: flex;
-  justify-content: end;
-}
-
 header {
   display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px #777 solid;
+  margin-top: 20px;
+  padding: 10px 20px;
 }
 
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar,
 .nav-links {
   display: flex;
   flex-direction: row;
-  max-width: 90%;
   margin: 0 auto;
-  align-items: center;
+}
+
+.nav-links {
   list-style: none;
   gap: 20px;
   padding: 6px;
@@ -23,13 +30,8 @@ header {
   text-decoration: none;
 }
 
-.navLogo {
-  margin-left: 35px;
-  padding: 0 2% 0 2%;
-  display: flex;
-  gap: 10px;
-}
-
 .picLogo {
-  height: 50px;
+  width: 15%;
+  height: auto;
+  padding: 0 2% 0 2%;
 }
