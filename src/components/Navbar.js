@@ -1,13 +1,12 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="navbar">
-    <img className="navLogo" src="../../images/spaceLogo.png" alt="" />
-    <h3>Space Travelers&apos; Hub</h3>
     <ul className="nav-links">
-      <li><NavLink to="./">Rockets</NavLink></li>
-      <li><NavLink to="/my-profile">My Profile</NavLink></li>
+      <li key={1}><NavLink to="./">Rockets</NavLink></li>
+      <li key={3}><NavLink to="/Mission">Mission</NavLink></li>
+      <li>|</li>
+      <li key={4}><NavLink to="/my-profile">My_Profile</NavLink></li>
     </ul>
   </nav>
 );
