@@ -1,6 +1,4 @@
 const Rockets = () => (
-  <div>
-    Rockets
-  </div>
+  <div>Rockets</div>
 );
 export default Rockets;
