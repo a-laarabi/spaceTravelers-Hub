@@ -15,7 +15,7 @@ const Missions = () => {
   }, []);
 
   return (
-    <div>
+    <div className="missionTable">
       <table>
         <tbody>
           <tr>

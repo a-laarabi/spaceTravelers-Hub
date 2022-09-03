@@ -35,3 +35,9 @@ header {
   height: auto;
   padding: 0 2% 0 2%;
 }
+
+.active {
+  color: #832161;
+  border-bottom: 2px solid #832161;
+  padding: 4px;
+}

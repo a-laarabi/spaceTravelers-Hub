@@ -14,7 +14,12 @@ function MyProfile() {
   return (
     <div className="container d-flex justify-content-center my-5">
       <div>
-        <h2>My Missions</h2>
+        <h2 className="ms-5">My Missions</h2>
+        <div className="card rocket-cart ms-5">
+          <ul className="list-group list-group-flush">
+            {joinedMissions.map((mission) => <li className="p-2 text-danger" key={mission.id}>{mission.name}</li>)}
+          </ul>
+        </div>
       </div>
       <div>
         <h2 className="ms-5">My Rockets</h2>
@@ -24,11 +29,6 @@ function MyProfile() {
           </ul>
         </div>
       </div>
-      
-      <h1>My Missions</h1>
-      <ul>
-        {joinedMissions.map((mission) => <li key={mission.id}>{mission.name}</li>)}
-      </ul>
     </div>
   );
 }
