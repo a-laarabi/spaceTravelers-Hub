@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Rockets components Check if the Rockets section are available 1`] = `<main />`;
