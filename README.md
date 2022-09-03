@@ -18,27 +18,42 @@
 - CSS.
 - GitFlow.
 
-## Run the app in the development mode(Port 3000)
+## Live Demo
+
+[Demo](https://resilient-sunshine-bc7cea.netlify.app/)
+
+## Getting Started
+
+> To successfully utilize this project first of all you need to clone or download the repository.
+
+### Install the dependencies
+
+```
+npm install
+```
+or
+
+```
+yarn
+```
+
+### Run the app in the development mode(Port 3000)
 
 ```
 npm start
 ```
 
-## Launches the test runner
+### Launches the test runner
 
 ```
 npm test
 ```
 
-## Builds the app for production
+### Builds the app for production
 
 ```
 npm run build
 ```
-
-## Demo App
-
-**live demo** [here](!)
 
 ## Authors
 
@@ -51,6 +66,8 @@ npm run build
 👤 **Anasse LAARABI**
 
 - GitHub: [@a-laarabi](https://github.com/a-laarabi)
+- Twitter: [@LusindisoNt](https://twitter.com/AnasseLaarabi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/a-laarabi/)
 
 ## 🤝 Contributing
 
