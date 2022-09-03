@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px #777 solid;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar,
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  gap: 20px;
+  padding: 6px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.picLogo {
+  width: 15%;
+  height: auto;
+  padding: 0 2% 0 2%;
+}
+
+.active {
+  color: #832161;
+  border-bottom: 2px solid #832161;
+  padding: 4px;
+}

@@ -1,0 +1,58 @@
+.missionTable * {
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  padding: 20px 10px;
+}
+
+.tableContent:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.missionName {
+  font-weight: 700;
+}
+
+.description {
+  text-align: left;
+}
+
+.status {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+}
+
+.yes {
+  background-color: #18a2b8;
+}
+
+.no {
+  background-color: #6d757d;
+}
+
+.join {
+  border-color: #dc3848;
+  color: #dc3848;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.leave {
+  border-color: #aeb1b3;
+  color: #aeb1b3;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 500;
+  background-color: #fff;
+}
